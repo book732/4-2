@@ -1,0 +1,56 @@
+
+2026-11-20T16:41:21.888063+09:00
+    PID     TID %CPU STAT WCHAN                            COMMAND
+   1036    1036 40.0 R    p9_client_rpc                    agent-leak-app-
+
+2026-11-20T16:41:27.133593+09:00
+    PID     TID %CPU STAT WCHAN                            COMMAND
+   1036    1036  0.5 SN   poll_schedule_timeout.constprop. agent-leak-app-
+
+2026-11-20T16:41:32.379426+09:00
+    PID     TID %CPU STAT WCHAN                            COMMAND
+   1036    1036  0.2 SNl  futex_do_wait                    agent-leak-app-
+   1036    1044  0.0 SNl  futex_do_wait                    agent-leak-app-
+   1036    1045  0.0 SNl  futex_do_wait                    agent-leak-app-
+
+2026-11-20T16:41:37.624333+09:00
+    PID     TID %CPU STAT WCHAN                            COMMAND
+   1036    1036  0.1 SNl  futex_do_wait                    agent-leak-app-
+   1036    1044  0.0 SNl  futex_do_wait                    agent-leak-app-
+   1036    1045  0.0 SNl  futex_do_wait                    agent-leak-app-
+
+2026-11-20T16:41:42.872293+09:00
+    PID     TID %CPU STAT WCHAN                            COMMAND
+   1036    1036  0.1 SNl  futex_do_wait                    agent-leak-app-
+   1036    1044  0.0 SNl  futex_do_wait                    agent-leak-app-
+   1036    1045  0.0 SNl  futex_do_wait                    agent-leak-app-
+
+2026-11-20T16:41:48.120855+09:00
+    PID     TID %CPU STAT WCHAN                            COMMAND
+   1036    1036  0.1 SNl  futex_do_wait                    agent-leak-app-
+   1036    1044  0.0 SNl  futex_do_wait                    agent-leak-app-
+   1036    1045  0.0 SNl  futex_do_wait                    agent-leak-app-
+
+2026-11-20T16:41:53.369838+09:00
+    PID     TID %CPU STAT WCHAN                            COMMAND
+   1036    1036  0.0 SNl  futex_do_wait                    agent-leak-app-
+   1036    1044  0.0 SNl  futex_do_wait                    agent-leak-app-
+   1036    1045  0.0 SNl  futex_do_wait                    agent-leak-app-
+
+2026-11-20T16:41:58.611137+09:00
+    PID     TID %CPU STAT WCHAN                            COMMAND
+   1036    1036  0.0 SNl  futex_do_wait                    agent-leak-app-
+   1036    1044  0.0 SNl  futex_do_wait                    agent-leak-app-
+   1036    1045  0.0 SNl  futex_do_wait                    agent-leak-app-
+
+2026-11-20T16:42:03.854894+09:00
+    PID     TID %CPU STAT WCHAN                            COMMAND
+   1036    1036  0.0 SNl  futex_do_wait                    agent-leak-app-
+   1036    1044  0.0 SNl  futex_do_wait                    agent-leak-app-
+   1036    1045  0.0 SNl  futex_do_wait                    agent-leak-app-
+
+2026-11-20T16:42:06.695560+09:00
+    PID     TID %CPU STAT WCHAN                            COMMAND
+   1036    1036  0.0 SNl  futex_do_wait                    agent-leak-app-
+   1036    1044  0.0 SNl  futex_do_wait                    agent-leak-app-
+   1036    1045  0.0 SNl  futex_do_wait                    agent-leak-app-

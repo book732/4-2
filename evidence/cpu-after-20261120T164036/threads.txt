@@ -1,0 +1,58 @@
+
+2026-11-20T16:40:36.425955+09:00
+    PID     TID %CPU STAT WCHAN                            COMMAND
+   1000    1000 25.0 D    p9_client_rpc                    agent-leak-app-
+
+2026-11-20T16:40:41.675506+09:00
+    PID     TID %CPU STAT WCHAN                            COMMAND
+   1000    1000  0.7 SNl  futex_do_wait                    agent-leak-app-
+   1000    1005  0.4 SNl  poll_schedule_timeout.constprop. agent-leak-app-
+   1000    1006  0.0 SNl  poll_schedule_timeout.constprop. agent-leak-app-
+
+2026-11-20T16:40:46.920919+09:00
+    PID     TID %CPU STAT WCHAN                            COMMAND
+   1000    1000  0.3 SNl  futex_do_wait                    agent-leak-app-
+   1000    1005  0.5 SNl  poll_schedule_timeout.constprop. agent-leak-app-
+   1000    1006  0.5 SNl  poll_schedule_timeout.constprop. agent-leak-app-
+
+2026-11-20T16:40:52.167422+09:00
+    PID     TID %CPU STAT WCHAN                            COMMAND
+   1000    1000  0.2 SNl  futex_do_wait                    agent-leak-app-
+   1000    1005  0.5 SNl  poll_schedule_timeout.constprop. agent-leak-app-
+   1000    1006  0.6 SNl  poll_schedule_timeout.constprop. agent-leak-app-
+
+2026-11-20T16:40:57.413740+09:00
+    PID     TID %CPU STAT WCHAN                            COMMAND
+   1000    1000  0.1 SNl  futex_do_wait                    agent-leak-app-
+   1000    1005  0.4 SNl  poll_schedule_timeout.constprop. agent-leak-app-
+   1000    1006  0.6 SNl  poll_schedule_timeout.constprop. agent-leak-app-
+
+2026-11-20T16:41:02.661610+09:00
+    PID     TID %CPU STAT WCHAN                            COMMAND
+   1000    1000  0.1 SNl  futex_do_wait                    agent-leak-app-
+   1000    1005  0.5 SNl  poll_schedule_timeout.constprop. agent-leak-app-
+   1000    1006  0.7 SNl  poll_schedule_timeout.constprop. agent-leak-app-
+
+2026-11-20T16:41:07.909195+09:00
+    PID     TID %CPU STAT WCHAN                            COMMAND
+   1000    1000  0.1 SNl  futex_do_wait                    agent-leak-app-
+   1000    1005  0.5 SNl  poll_schedule_timeout.constprop. agent-leak-app-
+   1000    1006  0.6 SNl  poll_schedule_timeout.constprop. agent-leak-app-
+
+2026-11-20T16:41:13.158395+09:00
+    PID     TID %CPU STAT WCHAN                            COMMAND
+   1000    1000  0.1 SNl  futex_do_wait                    agent-leak-app-
+   1000    1005  0.5 SNl  poll_schedule_timeout.constprop. agent-leak-app-
+   1000    1006  0.5 SNl  poll_schedule_timeout.constprop. agent-leak-app-
+
+2026-11-20T16:41:18.403685+09:00
+    PID     TID %CPU STAT WCHAN                            COMMAND
+   1000    1000  0.0 SNl  futex_do_wait                    agent-leak-app-
+   1000    1005  0.5 SNl  poll_schedule_timeout.constprop. agent-leak-app-
+   1000    1006  0.5 SNl  poll_schedule_timeout.constprop. agent-leak-app-
+
+2026-11-20T16:41:21.246771+09:00
+    PID     TID %CPU STAT WCHAN                            COMMAND
+   1000    1000  0.0 SNl  futex_do_wait                    agent-leak-app-
+   1000    1005  0.5 SNl  poll_schedule_timeout.constprop. agent-leak-app-
+   1000    1006  0.5 SNl  poll_schedule_timeout.constprop. agent-leak-app-

@@ -1,0 +1,18 @@
+{
+  "label": "oom-before",
+  "started_at": "2026-11-20T16:38:56.447869+09:00",
+  "max_seconds": 90,
+  "MEMORY_LIMIT": 256,
+  "CPU_MAX_OCCUPY": 100,
+  "MULTI_THREAD_ENABLE": "false",
+  "manual_stop": false,
+  "launcher_pid": 921,
+  "workload_pid": 922,
+  "returncode": -9,
+  "elapsed_seconds": 33.327,
+  "ended_at": "2026-11-20T16:39:29.775349+09:00",
+  "samples": 32,
+  "first_rss_kib": 18232.0,
+  "max_rss_kib": 274360.0,
+  "max_cpu_percent": 1.998
+}

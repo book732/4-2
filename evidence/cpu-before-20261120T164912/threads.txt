@@ -1,0 +1,16 @@
+
+2026-11-20T16:49:12.636778+09:00
+    PID     TID %CPU STAT WCHAN                            COMMAND
+   1325    1325 33.3 D    p9_client_rpc                    agent-leak-app-
+
+2026-11-20T16:49:17.887922+09:00
+    PID     TID %CPU STAT WCHAN                            COMMAND
+   1325    1325  1.1 SN   poll_schedule_timeout.constprop. agent-leak-app-
+
+2026-11-20T16:49:23.137053+09:00
+    PID     TID %CPU STAT WCHAN                            COMMAND
+   1325    1325  0.7 SN   poll_schedule_timeout.constprop. agent-leak-app-
+
+2026-11-20T16:49:28.385921+09:00
+    PID     TID %CPU STAT WCHAN                            COMMAND
+   1325    1325  1.0 SN   poll_schedule_timeout.constprop. agent-leak-app-

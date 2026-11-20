@@ -1,0 +1,28 @@
+
+2026-11-20T16:38:56.665318+09:00
+    PID     TID %CPU STAT WCHAN                            COMMAND
+    922     922 25.0 R    -                                agent-leak-app-
+
+2026-11-20T16:39:01.913238+09:00
+    PID     TID %CPU STAT WCHAN                            COMMAND
+    922     922  1.3 SN   poll_schedule_timeout.constprop. agent-leak-app-
+
+2026-11-20T16:39:07.159976+09:00
+    PID     TID %CPU STAT WCHAN                            COMMAND
+    922     922  0.7 SN   poll_schedule_timeout.constprop. agent-leak-app-
+
+2026-11-20T16:39:12.402086+09:00
+    PID     TID %CPU STAT WCHAN                            COMMAND
+    922     922  0.7 SN   poll_schedule_timeout.constprop. agent-leak-app-
+
+2026-11-20T16:39:17.645383+09:00
+    PID     TID %CPU STAT WCHAN                            COMMAND
+    922     922  0.7 SN   poll_schedule_timeout.constprop. agent-leak-app-
+
+2026-11-20T16:39:22.889274+09:00
+    PID     TID %CPU STAT WCHAN                            COMMAND
+    922     922  0.6 SN   poll_schedule_timeout.constprop. agent-leak-app-
+
+2026-11-20T16:39:28.131889+09:00
+    PID     TID %CPU STAT WCHAN                            COMMAND
+    922     922  0.6 SN   poll_schedule_timeout.constprop. agent-leak-app-

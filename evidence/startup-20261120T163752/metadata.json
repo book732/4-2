@@ -1,0 +1,9 @@
+{
+  "launcher_pid": 885,
+  "returncode": -15,
+  "manual_stop": true,
+  "elapsed_seconds": 18.066,
+  "MEMORY_LIMIT": 256,
+  "CPU_MAX_OCCUPY": 100,
+  "MULTI_THREAD_ENABLE": false
+}

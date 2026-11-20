@@ -1,0 +1,41 @@
+>>> Starting Agent Boot Sequence...
+[1/6] Checking User Account               [OK]
+   ... Running as service user 'last_' (uid=1000)
+[2/6] Verifying Environment Variables     [OK]
+   ... All required Envs correct
+[3/6] Checking Required Files             [OK]
+   ... Verified 'secret.key' with correct key string.
+[4/6] Checking Port Availability          [OK]
+   ... Port 15034 is available.
+[5/6] Verifying Log Permission            [OK]
+   ... Log directory is writable: /mnt/d/Codissey/4-2/evidence/cpu-before-20261120T164912/application
+[6/6] Verifying Mission Environment       [OK]
+   ... MEMORY_LIMIT=512MB, CPU_MAX_OCCUPY=100%, MULTI_THREAD_ENABLE=False
+------------------------------------------------------------
+All Boot Checks Passed!
+Agent READY
+2026-11-20 16:49:12,706 [INFO] [SafetyGuard] Process priority lowered (nice=10).
+2026-11-20 16:49:12,707 [INFO] Agent listening at port 15034
+
+==================================================
+ [ Agent Initiate ] Resource Check 
+==================================================
+ [ MEMORY ] Limit: 512MB 		[ OK ]
+ [ CPU    ] Limit: 100%  		[ WARNING: Recommend Under 50% ]
+ [ THREAD ] Concurrency: False 		[ OK ]
+--------------------------------------------------
+ >>> SYSTEM STATUS: STABLE. STARTING WORKLOAD MONITORING...
+==================================================
+
+2026-11-20 16:49:14,718 [INFO] [CpuWorker] Started. Maximum CPU Limit: 100%
+2026-11-20 16:49:14,719 [INFO] [CpuWorker] Current Load: 5.00%
+2026-11-20 16:49:17,837 [INFO] [CpuWorker] Current Load: 14.43%
+2026-11-20 16:49:20,944 [INFO] [CpuWorker] Current Load: 21.93%
+2026-11-20 16:49:24,061 [INFO] [CpuWorker] Current Load: 30.15%
+2026-11-20 16:49:27,178 [INFO] [CpuWorker] Current Load: 39.74%
+2026-11-20 16:49:30,296 [INFO] [CpuWorker] Current Load: 44.58%
+2026-11-20 16:49:33,403 [INFO] [CpuWorker] Current Load: 52.16%
+2026-11-20 16:49:33,505 [CRITICAL] [CpuWorker] CPU Threshold Violated! (52.16%).
+
+>>> [SYSTEM] WATCHDOG: INITIATING EMERGENCY ABORT (SIGTERM) <<<
+
